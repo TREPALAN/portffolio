@@ -5,12 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="my-icon.ico" />
+    <link rel="icon" href="icons/my-icon.ico" />
     <title>Allan's Portfolio</title>
   </head>
 
   <body>
-    <h1>Allan's Portfolio</h1>
-    <h2>I am a Web Developer</h2>
+    <div class="main">
+      <h3 class="my-title" id="title"></h3>
+      <div class="chage-language" onclick="changeLanguage()">
+        <img src="icons/icons8-planet-66.png" /><span id="language"></span>
+      </div>
+      <div class="my-info">
+        <h1 class="my-name">Allan R. Freitas</h1>
+
+        <p id="infoText"></p>
+
+        <div class="tecnologies">
+          <h3 class="tecnologies-title" id="tecnologies"></h3>
+          <div class="grid-container">
+            <div class="grid-item">
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+              </ul>
+            </div>
+            <div class="grid-item">
+              <ul>
+                <li>Node.js</li>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>SQL</li>
+              </ul>
+            </div>
+            <div class="grid-item">
+              <ul>
+                <li>AWS</li>
+                <li>Python</li>
+                <li>C</li>
+                <li>More</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="certification">
+          <h3 class="certification-title" id="certification"></h3>
+          <a
+            target="_blank"
+            href="https://certificates.cs50.io/da90ca9a-84a4-433b-896d-8a322bb2a467.png?size=letter"
+          >
+            <img
+              src="./icons/Harvard_University_shield.svg"
+              alt="CS50 shield"
+            />
+            CS50 introduction to computer science (2023)
+          </a>
+        </div>
+
+        <div class="footer">
+          <img
+            src="./icons/icons8-github-50.png"
+            title="github"
+            alt="github"
+            onclick="window.open('https://github.com/TREPALAN', '_blank');"
+          />
+          <img
+            src="./icons/icons8-linkedin-48.png"
+            onclick="window.open('https://www.linkedin.com/in/allan-freitas-52656729a', '_blank');"
+            title="linkedin"
+            alt="linkedin"
+          />
+          <img
+            src="./icons/icons8-email-26.png"
+            onclick="window.open('mailto:devalanfreitas@gmail.com', '_blank');"
+            title="email"
+            alt="email"
+          />
+        </div>
+      </div>
+    </div>
   </body>
+
+  <script src="script.js"></script>
 </html>
