@@ -48,4 +48,11 @@ function changeLanguage() {
   }
 }
 
-changeLanguage();
+window.onload = function () {
+  document.getElementById("title").innerHTML = engIitle;
+  document.getElementById("tecnologies").innerHTML = engTechnologies;
+  document.getElementById("certification").innerHTML = engCertificationTitle;
+  document.getElementById("language").innerHTML = "ENG";
+  document.getElementById("infoText").innerHTML = engInfo;
+  language = "ENG";
+};
