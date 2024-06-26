@@ -3,7 +3,7 @@ let language = "ENG";
 // English
 const engIitle = "Full Stack Web Developer";
 const engTechnologies = "Tecnologies";
-const engCertificationTitle = "Certification";
+const engCertificationTitle = "Courses";
 
 const engInfo = `Full Stack Web Developer self-taught. I am always looking for new
 challenges and opportunities to grow as a developer, with a strong
@@ -19,7 +19,7 @@ I'm also the owner of the site
 // Portuguese
 const ptIitle = "Desenvolvedor Full Stack";
 const ptTechnologies = "Tecnologias";
-const ptCertificationTitle = "Certificação";
+const ptCertificationTitle = "Cursos";
 
 const ptInfo = `Desenvolvedor Full Stack. estou sempre em busca de novos
 desafios e oportunidades para me aprimorar como desenvolvedor com uma

@@ -93,7 +93,25 @@ a {
   justify-content: center;
   gap: 10px;
   font-size: 20px;
-  color: white;
+  color: rgb(106, 106, 106);
+}
+
+.certification-button {
+  background-color: rgb(23, 22, 22);
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.certification-button:hover {
+  background-color: rgb(37, 33, 33);
+  color: rgb(255, 255, 255);
 }
 
 .footer {
