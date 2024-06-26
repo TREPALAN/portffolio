@@ -5,10 +5,10 @@ const engIitle = "Full Stack Web Developer";
 const engTechnologies = "Tecnologies";
 const engCertificationTitle = "Certification";
 
-const engInfo = `Full Stack Web Developer self taught. I am always looking for new
+const engInfo = `Full Stack Web Developer self-taught. I am always looking for new
 challenges and opportunities to grow as a developer, with a strong
 passion for taking an idea and turning it into a reality through
-coding. I have lot of love for learning in general not only in
+coding. I have a lot of love for learning in general not only in
 programming. I have some projects on
 <a target="_blank" href="https://github.com/TREPALAN">My GitHub</a>.
 I'm also the owner of the site
